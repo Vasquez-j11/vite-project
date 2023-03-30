@@ -1,0 +1,45 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dddbdb;
+}
+header{
+    background-color: #dddbdb;
+    width: 100%;
+}
+.menu{
+    z-index: 1000;
+}
+.logohead{
+    width: 15rem;
+}
+.logohead:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+.navbar-toggler{
+    border-color: #801810;
+}
+.nav-item{
+    width: 176px;
+    height: 53px;
+}
+.nav-link{
+    font-family: Abel;
+    color: #ffff !important;
+    background-color: #801810 !important;
+
+}
+.nav-link:hover{
+   background-color: #B21F1A !important; 
+   color: #fff ;
+}

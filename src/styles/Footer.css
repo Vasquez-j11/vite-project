@@ -1,0 +1,60 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dddbdb;
+}
+footer{
+    background-color: #b2b1b153;
+}
+.logopie{
+    width: 50%;
+}
+.logopie:hover{
+    filter: brightness(110%);
+}
+.tituconpie{
+    font-family: Abel;
+    color: #B21F1A;
+}
+.redtext{
+    font-family: Abel;
+    color: #B21F1A;
+}
+.redcont{
+    display: flex;
+}
+.icon{
+    
+    width: 33%;
+}
+.icon:hover{
+    filter: brightness(120%);
+}
+.numcont{
+    font-family: Abel;
+    font-size: 18px;
+}
+i:hover{
+    cursor: pointer;
+    color: #B21F1A;
+}
+b:hover{
+    cursor: pointer;
+    color: #B21F1A;
+}
+.grupo2{
+    background-color: rgb(120, 120, 120);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: Abel;
+}

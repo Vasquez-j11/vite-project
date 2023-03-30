@@ -1,0 +1,32 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dddbdb;
+}
+.section1{
+    
+    max-height: 300vh;
+    min-height: 50vh;
+    
+    
+}
+.titulo1{
+    color: #B21F1A;
+    font-size: 50px;
+    font-family: Abel ;
+}
+.parrafo1{
+    text-align: justify;
+    font-family: Abel;
+    font-size: 20px;
+    color: #000;
+}

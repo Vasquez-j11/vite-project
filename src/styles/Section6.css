@@ -1,0 +1,33 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dddbdb;
+}
+.section3{
+    background-image: url(src/assets/motomo.jpg);
+    max-height: 200vh;
+    min-height: 110vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#btnxd{
+    height: 100vh;
+}
+#btnzy{
+    color: white;
+    padding: 1em 5em;
+    border-radius: 4px;
+    background-color: #801810cc;
+    font-family: carolingia;
+    font-size: 40px;
+}

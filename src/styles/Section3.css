@@ -1,0 +1,49 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dddbdb;
+}
+.section2{
+    max-height: 100vh;
+    min-height: 50vh;
+}
+.titutrin{
+    color: #B21F1A;
+    font-family: carolingia;
+    font-size: 40px;
+    margin: 0;
+    
+}
+#contyo{
+    margin: auto;
+    max-width: 250px;
+}
+.subtxt2{
+    font-family: Abel;
+   color: #B21F1A;
+}
+.chimbilin{
+    font-family: Abel;
+    color: #fff;
+    
+}
+.card-title{
+    font-family: Carolingia;
+    color: #B21F1A;
+    font-size: 30px;
+}
+.card-text{
+    font-family: Abel;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+}

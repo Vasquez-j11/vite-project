@@ -1,0 +1,29 @@
+@font-face{
+    font-family: carolingia;
+    src: url(../tipografia/carolingia.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(../tipografia/Abel-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dddbdb;
+}
+.section2-1{
+    max-height: 100vh;
+    min-height: 40vh;
+}
+.subtxt{
+    font-family: Abel;
+    color: #B21F1A;
+    font-size: 35px;
+}
+.subtxt:hover{
+    color: #646262;
+}
+#contnaje{
+    max-width: 250px;
+}
